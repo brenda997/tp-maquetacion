@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.funnel-sans {
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+ /* Header */
+header{
+    background:  linear-gradient(69deg,rgb(174, 190, 195) 0%, rgba(47, 79, 186, 1) 100%);
+}
+
+header nav a img{
+ width: 150px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+header nav a{
+   background-color: linear-gradient(#BDD3D9 , #2F4FBA);
+}
+
+
+ /* Footer */
+ footer{
+    position: fixed;
+    width: 100%;
+    bottom:0;
+ }
+
+ .index footer{
+    position: static;
+ }

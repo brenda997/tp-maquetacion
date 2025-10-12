@@ -1,0 +1,49 @@
+
+.portada{
+    display: flex;
+    justify-content: center;
+   
+}
+ 
+portada img{
+    width: 80vw;
+}
+
+ /* Tamanos de imagen portada carousel */
+.portada .carousel-item img{
+    width: 80%;
+    height: 80vh;
+    object-fit: cover;
+    
+}
+/* Fecha carousel (color, fondo y borde) */
+.carousel-control-prev-icon,  .carousel-control-next-icon {
+    width: 34px;
+    border: solid black 2px;
+    background-color: #4361bb;
+    border-radius: 15px;
+}
+
+.carousel-caption{
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    width: 51%;
+    margin: auto;
+}
+ 
+      /* Accordion */
+  .accordion{
+    width: 80vw;
+    margin: 40px auto; 
+    }
+
+    .accordion h2{
+        text-align: center;
+    }
+     /* Cambiar fonde de cada item */
+    .accordion-button, .accordion-button:not(.collapsed){
+        background: #a4b6c3;
+    }
+    
+    
+      
