@@ -12,6 +12,14 @@ li{
     list-style: none;
 }
 
+h1{
+    text-align: center;
+}
+
+p{
+    margin-bottom: 0.5rem; 
+}
+
 /* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -40,20 +48,33 @@ header nav ul{
     display: flex;
     flex-direction: row;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 header nav a{
    background-color: linear-gradient(#BDD3D9 , #2F4FBA);
 }
-
+ 
 
  /* Footer */
- footer{
-    position: fixed;
-    width: 100%;
-    bottom:0;
+ .index footer {
+    position: static;
  }
 
- .index footer{
-    position: static;
+ form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+    
+}
+ legend{ 
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+ }
+       
+ form div button{
+    padding: 5px;
+    border-radius: 7px;
  }
