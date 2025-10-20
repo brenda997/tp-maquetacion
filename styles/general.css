@@ -54,13 +54,34 @@ header nav ul{
 header nav a{
    background-color: linear-gradient(#BDD3D9 , #2F4FBA);
 }
- 
+
+body{
+     background: linear-gradient(180deg, #ecf1f4, #c4e2e5);
+    font-family: 'Poppins', sans-serif ;
+    }
+}
 
  /* Footer */
- .index footer {
-    position: static;
- }
+/* Estilos para el Footer */
+.simple-footer {
+    background-color: #333; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+    width: 100%; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); 
+}
 
+/* Footer */
+footer p{
+    background: #3f5dbb;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+ /* Formulario */
  form {
     display: flex;
     flex-direction: column;
